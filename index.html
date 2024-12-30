@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+    Personal Portfolio Website
+    Author: Atreya Sridharan
+    Description: Professional portfolio showcasing projects, research and contact information
+-->
 <html>
 <head>
     <title>Atreya Sridharan</title>
@@ -10,59 +15,119 @@
 
     <!-- Header -->
     <header>
-        <div class="logo">
-            <a href="#about">Atreya Sridharan</a>
-        </div>
+        <h1>Atreya Sridharan</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- About Section -->
-      <section id="about" class="wrapper style2">
+    <section id="about" class="wrapper">
         <div class="inner">
-            <header class="align-center">
-                <h2>About Me</h2>
-                <p>I'm an aspiring PhD student focused on developing AI systems for medical imaging that are interpretable, reliable, and impactful for clinicians.</p>
-            </header>
-            <div class="image fit align-center">
-                <img src="IMG_2668.jpg" alt="Atreya Sridharan" style="max-width: 300px; border-radius: 50%;">
+            <h2>Senior and Undegraduate Research Assistant at <a href="https://case.edu/engineering/labs/invent/about">INVent Labs</a> </h2>
+            
+            <div class="image fit">
+                <img src="images/IMG_2668.jpg" alt="Atreya Sridharan" style="max-width: 200px; border-radius: 5px;">
             </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="content">
-        <h1>Projects</h1>
-        <ul>
-            <li><strong>Project 1:</strong> Deep learning model for medical imaging.</li>
-            <li><strong>Project 2:</strong> Image reconstruction using Tikhonov regularization.</li>
-        </ul>
+            <p>I'm an aspiring PhD student focused on developing AI systems for medical imaging that are interpretable, reliable, and impactful for clinicians.</p>
+        </div>
     </section>
 
     <!-- Research Section -->
     <section id="research" class="content">
-        <h1>Research</h1>
-        <p>I have three publications: a first-author conference paper and a preprint journal article. My primary focus is on creating AI systems with model transparency and usability for clinicians.</p>
+        <h2>Research</h2>
+        
+        <div class="research-item">
+            <h3>Medical Imaging</h3>
+            <p>Developing interpretable deep learning models for medical image analysis with a focus on clinical applicability.</p>
+        </div>
+
+        <div class="research-item">
+            <h3>Interpretability</h3>
+            <p>Novel approaches to apply Interpretability technqiues for vision models,specificially, for use in medical images.</p>
+        </div>
     </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="content">
+        <h2>Publications</h2>
+        
+        <div class="publication">
+            <h3>Empirical comparison of self-configuring and foundational deep-learning segmentation models for identifying the anal sphincter complex and perianal fistulas on pelvic MRI</h3>
+            <div class="publication-authors">
+                <span class="author">Sridharan, A.</span>, 
+                <span class="author">Hariri, M.</span>, 
+                <span class="author">Viswanath, S.</span>
+            </div>
+            <div class="publication-venue">
+                SPIE: Medical Imaging, 2024
+            </div>
+            <div class="publication-links">
+                <a href="#" class="https://spie.org/medical-imaging/presentation/Empirical-comparison-of-self-configuring-and-foundational-deep-learning-segmentation/13408-81">[Paper]</a>
+            </div>
+        </div>
+
+        <div class="publication">
+            <h3>Integrating multi-plane and multi-region radiomic features to predict pathologic response to neoadjuvant chemoradiation in rectal cancers via pre-treatment MRI</h3>
+            <div class="publication-authors">
+                <span class="author">DeSilvio, T.</span>, 
+                <span class="author">Sridharan, A.</span>, 
+                <span class="author">Viswanath, S.</span>
+            </div>
+            <div class="publication-venue">
+                SPIE: Medical Imaging, 2023
+            </div>
+            <div class="publication-links">
+                <a href="#" class="https://doi.org/10.1117/12.2655787">[Paper]</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects -->
+     <section id="projects" class="content">
+        <h2> Projects</h2>
+
+        <div class="projects">
+            <h3>Sparse-UNet</h3>
+            <p>Added autoencoder layers within the U-Net architecture to enhance feature extraction and improve segmentation.</p>
+            <p>Engineered sparsity constraints to reduce complexity and improve efficiency, retaining essential features</p>
+            <p> Combined sparse encoding with skip connections for improved spatial information preservation</p>
+        </div>
+
+        <div class="projects"></div>
+            <h3>CLIP for Lymphoma classification</h3>
+            <p>Implemented CLIP architecture to classify Lymphoma types.</p>
+            <p>Preprocessing through data augmentation and creation of HDF5 tables</p>
+        </div>
+
+        <div class="projects"></div>
+            <h3>Pill Reminder App</h3>
+            <p>Created app to generate medicine schedules for patients with polypharmacy</p>
+        </div>
+        
+     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="content">
-        <h1>Contact</h1>
-        <p>Email: axs2220@.case.edu</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/atreya-sridharan-357b38204/">LinkedIn Profile</a></p>
+        <h2>Contact Information</h2>
+        <p>axs2220 (a.t.) case.edu</p>
+        <p><a href="https://www.linkedin.com/in/atreya-sridharan-357b38204/">LinkedIn Profile</a></p>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Atreya Sridharan. Built with <a href="https://github.com/">GitHub Pages</a>.</p>
+        <p>&copy; 2024 Atreya Sridharan</p>
     </footer>
 
 </body>
 </html>
+
+
 
