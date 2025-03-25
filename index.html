@@ -4,22 +4,26 @@
     Author: Atreya Sridharan
     Description: Professional portfolio showcasing projects, research and contact information
 -->
-<html>
+<html lang="en">
 <head>
-    <title>Atreya Sridharan</title>
+    <title>Atreya Sridharan - Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Portfolio of Atreya Sridharan - Undergraduate Researcher in AI, Computer Vision, and Deep Learning">
+    <meta property="og:title" content="Atreya Sridharan - Portfolio">
+    <meta property="og:description" content= "Portfolio of an undergraduate researcher specializing in AI and computer vision">
+    <meta property="og:type" content="personal website">
+    
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
     <!-- Header -->
     <header>
         <h1>Atreya Sridharan</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#r</header>esearch">Research</a></li>
+                <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -30,41 +34,27 @@
     <!-- About Section -->
     <section id="about" class="wrapper">
         <div class="inner">
-            <h2>About me </h2>
+            <h2>About me</h2>
             
             <div class="image fit" style="text-align: center;">
-                <img src="images/HeadShot Merck.jpeg" alt="Atreya Sridharan" style="max-width: 200px; border-radius: 5px; margin: 0 auto; display: block;">
+                <img src="images/HeadShot Merck.jpeg" alt="Atreya Sridharan professional headshot" style="max-width: 200px; border-radius: 5px; margin: 0 auto; display: block;">
             </div>
 
-            <p>I am Senior at Case Western Reserve University and an Undegraduate Research Assistant at <a href="https://case.edu/engineering/labs/invent/about">INVent Labs</a> focusing on developing AI systems for medical imaging that are interpretable, reliable, and impactful for clinicians.
-            Outside of work I enjoy music, cooking and Urdu poetry</p>
+            <p>I am a Senior at Case Western Reserve University and an undergraduate research Assistant at <a href="https://case.edu/engineering/labs/invent/about">INVent Labs</a> focusing on developing AI systems for medical imaging that are interpretable, reliable, and impactful for clinicians. Outside of work, I enjoy music, cooking and Urdu poetry. I am currently looking for full time positions, whether that be in data science/engineering or computer vision.</p>
         </div>
     </section>
 
     <!-- Research Section -->
     <section id="research" class="content">
         <h2>Research Interests</h2>
-        
-        <div class="research-item">
-            <h3>Medical Imaging</h3>
-            <p>Developing interpretable deep learning models for medical image analysis with a focus on clinical applicability.</p>
-        </div>
-
-        <div class="research-item">
-            <h3>Interpretability</h3>
-            <p>Novel approaches to apply Interpretability techniques for vision models,specificially, for use in medical images.</p>
-        </div>
-        <div class="research-item">
-            <h3>Interpretability</h3>
-            <p>Optimizing Deep Learning models.</p>
-        </div>
+        <p>My research interests are deep learning and computer vision. I work on deep learning model architectures, training, optimization, and understanding. I also enjoy working on projects in mech interp and reinforcement learning, with an emphasis on vision models, but LLMs are very cool as well :)</p>
     </section>
 
     <!-- Publications Section -->
     <section id="publications" class="content">
         <h2>Publications</h2>
         
-        <div class="publication">
+        <article class="publication">
             <h3>Integrating self-configuring and foundational deep-learning segmentation models for identifying the anal sphincter complex and perianal fistulas on pelvic MRI</h3>
             <div class="publication-authors">
                 <span class="author">Sridharan, A.</span>, 
@@ -72,14 +62,14 @@
                 <span class="author">Viswanath, S.</span>
             </div>
             <div class="publication-venue">
-                SPIE: Medical Imaging, 2024
+                SPIE: Medical Imaging, 2025
             </div>
             <div class="publication-links">
                 <a href="https://spie.org/medical-imaging/presentation/Empirical-comparison-of-self-configuring-and-foundational-deep-learning-segmentation/13408-81" class="publication-links">[Paper]</a>
             </div>
-        </div>
+        </article>
 
-        <div class="publication">
+        <article class="publication">
             <h3>Integrating multi-plane and multi-region radiomic features to predict pathologic response to neoadjuvant chemoradiation in rectal cancers via pre-treatment MRI</h3>
             <div class="publication-authors">
                 <span class="author">DeSilvio, T.</span>, 
@@ -92,32 +82,14 @@
             <div class="publication-links">
                 <a href="https://doi.org/10.1117/12.2655787" class="publication-links">[Paper]</a>
             </div>
-        </div>
+        </article>
     </section>
 
-    <!-- Personal Projects -->
-     <section id="projects" class="content">
-        <h2> Projects</h2>
-
-        <div class="projects">
-            <h3>Sparse-UNet</h3>
-            <p>Added autoencoder layers within the U-Net architecture to enhance feature extraction and improve segmentation.</p>
-            <p>Engineered sparsity constraints to reduce complexity and improve efficiency, retaining essential features</p>
-            <p> Combined sparse encoding with skip connections for improved spatial information preservation</p>
-        </div>
-
-        <div class="projects"></div>
-            <h3>CLIP for Lymphoma classification</h3>
-            <p>Implemented CLIP architecture to classify Lymphoma types.</p>
-            <p>Preprocessing through data augmentation and creation of HDF5 tables</p>
-        </div>
-
-        <div class="projects"></div>
-            <h3>Pill Reminder App</h3>
-            <p>Created app to generate medicine schedules for patients with polypharmacy</p>
-        </div>
-        
-     </section>
+    <!-- Personal Projects Section -->
+    <section id="projects" class="content">
+        <h2>Projects</h2>
+        <p>I have contributed to multiple projects, primarily associated with INVent Labs. Additionally, my personal projects, which focus on Mechanistic Interpretation topics, Vision models implemented in C, and Flash Attention deployment, are available on GitHub. Please feel free to reach out to me if you want to collaborate on any project - I am interested in literally anything, so any project would be fun for me to work on.</p>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="content">
@@ -135,9 +107,27 @@
         <p>&copy; 2024 Atreya Sridharan</p>
     </footer>
 
+   
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Atreya Sridharan",
+        "jobTitle": "Undergraduate Research Assistant",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Case Western Reserve University"
+        },
+        "url": "https://atreya-s.github.io",
+        "sameAs": [
+            "https://www.linkedin.com/in/atreya-sridharan-357b38204/",
+            "https://github.com/atreya-s",
+            "https://x.com/atreya_s"
+        ]
+    }
+    </script>
 </body>
 </html>
-
 
 
 
