@@ -11,8 +11,8 @@ main:
   - title: "CV"
     url: /files/AtreyaSridharan_Resume.pdf
 
-  - title: "Portfolio"
-    url: /portfolio/portfolio-1.md    
+  - title: "Work"
+    url: /work/    
 
   - title: "Research"
     url: /publications/    
