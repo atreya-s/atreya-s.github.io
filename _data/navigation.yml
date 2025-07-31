@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /files/AtreyaSridharan_Resume.pdf
+    url: /cv.html/
 
   - title: "Work"
     url: /work/    
