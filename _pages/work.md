@@ -1,10 +1,8 @@
 ---
 layout: archive
 title: "Work Experience"
-permalink: /cv/
+permalink: /work/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 ### Graduate Researcher  
