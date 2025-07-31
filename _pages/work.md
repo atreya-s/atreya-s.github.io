@@ -1,11 +1,9 @@
 ---
 layout: archive
+title: "Work Experience"
 permalink: /work/
 author_profile: true
 ---
-
-Work Experience
-======
 
 * Graduate Researcher  
   **Northwestern University**  
