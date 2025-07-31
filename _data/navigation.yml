@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /cv.html/
+    url: /cv/
 
   - title: "Work"
     url: /work/    
