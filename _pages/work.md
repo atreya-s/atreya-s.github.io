@@ -9,7 +9,7 @@ author_profile: true
   **Northwestern University**  
   *Fall 2025 – Present*  
   Advanced AI in Medicine and Physics @ NU Radiology  
-  *Supervisor: [Dr. Bo Zhou](https://bbbbbbzhou.github.io) **
+  *Supervisor: [Dr. Bo Zhou](https://bbbbbbzhou.github.io)*
 
 * Undergraduate Researcher  
   **Case Western Reserve University**  
