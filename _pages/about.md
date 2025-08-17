@@ -15,7 +15,7 @@ My name is Atreya, and I like to work on Vision models and investigate their via
     * Deep Learning Theory
 
 
-I aim to explore the intersection of vision and deep learning theory, with an emphasis on making these models more interpretable and usable in applied domains.
+I aim to explore the intersection of Vision and Deep Learning Theory, with an emphasis on making these models more Interpretable and usable in Applied Domains.
 
 Outside of research, I am also known to enjoy Benne Dosa and Biryani ☺️
 
