@@ -1,12 +1,27 @@
 ---
 permalink: /
-title: "👋🏽 Hello! I'm Atreya"
+title: "👋🏽 Hello!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a graduate researcher at the AIMP lab at Northwestern University, being advised by [Dr. Bo Zhou](https://bbbbbbzhou.github.io). I'm currently working towards a Master's thesis through the Department of Biomedical Engineering at NU. I was formerly an undergraduate researcher at INVent Labs at Case Western Reserve University, being advised by [Dr. Satish E. Viswanath](https://case.edu/cancer/members/member-directory/satish-e-viswanath), where I got my degrees in Biomedical Engineering and Applied Mathematics. 
+My name is Atreya, and I like to work on Vision models and investigate their viability.
+<br>
+* My research interests are:
+    * Applied Computer Vision for Medicine
+    * Mechanistic Interpretability
+    * Deep Learning Theory
+
+
+I aim to explore the intersection of vision and deep learning theory, with an emphasis on making these models more interpretable and usable in applied domains.
+
+Outside of research, I am also known to enjoy Benne Dosa and Biryani ☺️
+
+Always looking to collaborate on projects!
+
+
+
 
  
