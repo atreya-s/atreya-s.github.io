@@ -7,17 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-My name is Atreya, and I like to work on Vision models and investigate their viability.
+My name is Atreya, and I enjoy working on deep learning and computer vision models, with a focus on understanding how these models work and behave.
 <br>
 * My research interests are:
-    * Applied Computer Vision for Medicine
-    * Mechanistic Interpretability
+    * Foundation Models for Medical Image
+    * Multimodal Learning
     * Deep Learning Theory
 
-
-I aim to explore the intersection of Vision and Deep Learning Theory, with an emphasis on making these models more Interpretable and usable in Applied Domains.
-
-Outside of research, I am also known to enjoy Benne Dosa and Biryani ☺️
+Outside of research, I am known to enjoy the Benne Dosa and Biryani ☺️
 
 Always looking to collaborate on projects!
 
